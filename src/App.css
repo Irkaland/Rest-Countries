@@ -86,9 +86,10 @@
 }
 
 .filter {
+  overflow: hidden;
   font-family: "Nunito Sans";
   font-weight: 600;
-  min-width: 150px;
+  min-width: 200px;
   border-radius: 5px;
   padding: 13px;
   border: none;
@@ -118,7 +119,9 @@
 }
 
 .catalog-card-container {
+  /* background-color: red; */
   display: flex;
+  min-height: 500px;
   align-items: flex-start;
   justify-content: center;
   padding-bottom: 70px;
