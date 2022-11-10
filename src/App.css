@@ -118,7 +118,6 @@
 }
 
 .catalog-card-container {
-  min-height: calc(100vh - 67.2px);
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -188,7 +187,7 @@
   background-color: var(--Very-Light-Gray-Light-Mode-Background);
   box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
   width: 100%;
-  height: calc(100vh - 67.2px);
+  min-height: 646px;
   padding: 60px 104px 0px 104px;
 }
 
@@ -199,7 +198,7 @@
 }
 
 .country-container {
-  height: calc(100vh - 300px);
+  min-height: 646px;
   display: flex;
   align-items: center;
   gap: 70px;
@@ -303,12 +302,11 @@
 
   .filter {
     font-size: 14px;
-    min-width: 200px;
+    min-width: 310px;
   }
 
   .catalog-card-container {
-    padding-bottom: 90px;
-    min-height: calc(100vh - 64.8px);
+    padding: 20px 20px 50px 20px;
   }
 
   .catalog-card {
@@ -316,14 +314,12 @@
   }
 
   .country-container-wrapper {
-    height: calc(100vh - 64.8px);
     padding: 20px;
     gap: 30px;
     font-size: 14px;
   }
   .country-container {
     padding-top: 50px;
-    height: calc(100vh - 200px);
     display: flex;
     gap: 50px;
     flex-direction: column;
@@ -333,7 +329,6 @@
 @media only screen and (max-width: 1180px) {
   .catalog-card-container {
     padding: 30px;
-    min-height: calc(100vh - 67.2px);
   }
 
   .catalog-nav {
@@ -345,7 +340,6 @@
   }
 
   .country-container-wrapper {
-    height: calc(100vh - 67.2px);
     padding: 70px;
     padding-left: 40px;
     padding-right: 40px;
@@ -354,7 +348,6 @@
 
   .country-container {
     padding-top: 50px;
-    height: calc(100vh - 200px);
     display: flex;
     gap: 50px;
     flex-direction: column;
